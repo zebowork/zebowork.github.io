@@ -1,0 +1,25 @@
+# Site settings
+title: ZEBO
+email: info@zebo.work
+description: > # this means to ignore newlines until "baseurl:"
+  ZEBO is a free application for laundry in your area. It search laundries
+  in your area to place job. ZEBO means laundryman or washerman or dhobi
+  avaible for android and apple.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+# User setting
+owner: ZEBO
+email: info@zebo.work
+facebook_username:
+twitter_username:
+github_username:
+address: 
+  - line: address
+  - line: tbd1
+  # Feel free to add more lines here 
+telephone: "000-0000-00"
+copyright:
+
+# Build settings
+markdown: kramdown
