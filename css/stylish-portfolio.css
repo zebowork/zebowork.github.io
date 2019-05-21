@@ -242,3 +242,9 @@ hr.small {
 footer {
     padding: 100px 0;
 }
+
+.centerImg{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
