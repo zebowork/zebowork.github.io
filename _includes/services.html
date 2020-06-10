@@ -16,7 +16,9 @@
                 <strong>Items</strong>
               </h4>
               <p>Wide range of items and operations on it with febric options..</p>
-              <a href="#" class="btn btn-light">Learn More</a>
+              <button type="button" class="btn btn-light noOutline" data-toggle="modal" data-target="#itemModal">
+                Learn More
+              </button>
             </div>
           </div>
           <div class="col-md-3 col-sm-6">
@@ -29,7 +31,9 @@
                 <strong>Basket</strong>
               </h4>
               <p>Add items into your basket and post them whenever you want....</p>
-              <a href="#" class="btn btn-light">Learn More</a>
+              <button type="button" class="btn btn-light noOutline" data-toggle="modal" data-target="#basketModal">
+                Learn More
+              </button>
             </div>
           </div>
           <div class="col-md-3 col-sm-6">
@@ -41,8 +45,10 @@
               <h4>
                 <strong>Price</strong>
               </h4>
-              <p>Show summary and detail prices of available laundires in area.</p>
-              <a href="#" class="btn btn-light">Learn More</a>
+              <p>Show summary and detail prices of available laundries in area.</p>
+              <button type="button" class="btn btn-light noOutline" data-toggle="modal" data-target="#priceModal">
+                Learn More
+              </button>
             </div>
           </div>
           <div class="col-md-3 col-sm-6">
@@ -55,7 +61,9 @@
                 <strong>Easy to use</strong>
               </h4>
               <p>Simple interfaces, minimum steps and easy to register and use.</p>
-              <a href="#" class="btn btn-light">Learn More</a>
+              <button type="button" class="btn btn-light noOutline" data-toggle="modal" data-target="#easyModal">
+                Learn More
+              </button>
             </div>
           </div>
         </div>
@@ -67,3 +75,106 @@
   </div>
   <!-- /.container -->
 </section>
+
+<!-- Button trigger modal -->
+
+
+<!--Items Modal -->
+<div class="modal fade" id="itemModal" tabindex="-1" role="dialog" aria-labelledby="itemModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="itemModalLabel">Items</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Wide range of items available. You can select any item to put it into your basket. You can add your
+          desire operations on item, by the way you can select what is the febric of your item to help laundry treat it
+          like wise. Put your item pictures to your future reference.</p>
+        <br>
+        <div class="img-wrap">
+          <img src="img/empty.png" Class="img-responsive" alt="items" />
+          <br/>
+          <img src="img/item.png" Class="img-responsive" alt="operations" />
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Basket Modal -->
+<div class="modal fade" id="basketModal" tabindex="-1" role="dialog" aria-labelledby="basketModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="basketModalLabel">Basket</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Add items into your basket and post them whenever you want. You can edit items from basket or remove them
+         if you like. you can empty your basket at once with single click. Put your address, so we can find all
+         laundries near your area. You can also select your service type (Express, urgent or standard)</p>
+        <br>
+        <div class="img-wrap">
+          <img src="img/basket.png" Class="img-responsive" alt="basket" />
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Price Modal -->
+<div class="modal fade" id="priceModal" tabindex="-1" role="dialog" aria-labelledby="priceModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="priceModalLabel">Price</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>When you click check price button from basket, ZEBO will show you summaries (price + rating) of all the
+          available laundries in your area. You can click on detail price to check price break down.</p>
+        <br>
+        <div class="img-wrap">
+          <img src="img/itemDetail.png" Class="img-responsive" alt="price" />
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Easy To Use Modal -->
+<div class="modal fade" id="easyModal" tabindex="-1" role="dialog" aria-labelledby="easyModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="easyModalLabel">Easy to use</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Simple interfaces, minimum steps to place the job and intuitive to use. You don't require to register yourself
+        to use ZEBO. If you create account, you will have some extra benefits e-g history etc</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
